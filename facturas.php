@@ -32,13 +32,13 @@
 		    <div class="btn-group pull-right">
 				<a  href="nueva_factura.php" class="btn btn-info"><span class="glyphicon glyphicon-plus" ></span> Nueva Factura</a>
 			</div>
-			<h4><i class='glyphicon glyphicon-search'></i> Encontrar Facturas</h4>
+			<h4><i class='glyphicon glyphicon-search'></i> Buscar Facturas</h4>
 		</div>
 			<div class="panel-body">
 				<form class="form-horizontal" role="form" id="datos_cotizacion">
 				
 						<div class="form-group row">
-							<label for="q" class="col-md-2 control-label">Nombre del cliente</label>
+							<label for="q" class="col-md-2 control-label">Nombre del cliente o # de factura</label>
 							<div class="col-md-5">
 								<input type="text" class="form-control" id="q" placeholder="Nombre del cliente o # de factura" onkeyup='load(1);'>
 							</div>
